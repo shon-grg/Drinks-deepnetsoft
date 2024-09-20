@@ -1,8 +1,3 @@
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-dotenv.config({ path: "./config.env" });
-const app = require("./app");
-
 //MONGO DB ATLAS PASSWORD CHECKING
 const DB = process.env.DATABASE_MONGOSHELL.replace(
   "<PASSWORD>",
