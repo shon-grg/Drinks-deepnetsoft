@@ -11,15 +11,11 @@ const DB = process.env.DATABASE_MONGOSHELL.replace(
 
 //MONGO DB CONNECTION STRING
 mongoose
-  //.connect(process.env.DATABASE_LOCAL,{
   .connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
     family: 4,
-
-    //     useCreateIndex:true,
-    //     useFindAndModify:false
   })
   .then((con) => console.log("DB Connection successful!"));
 
