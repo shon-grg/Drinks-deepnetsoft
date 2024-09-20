@@ -1,0 +1,85 @@
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: row;
+}
+/* .contact {
+} */
+
+.row div {
+  width: 373px;
+  height: 134px;
+  margin-top: 116px;
+  margin-left: 147px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  color: #857878;
+}
+.cont1 h1 {
+  width: 121px;
+  height: 23px;
+  font-family: Oswald;
+  font-size: 16px;
+  line-height: 23.71px;
+  letter-spacing: 3%;
+  color: #0796ef;
+  margin-top: 16.95px;
+  margin-left: 125px;
+}
+.cont1 h2 {
+  width: 141px;
+  height: 22.6px;
+  margin-top: 3.77px;
+  margin-left: 147px;
+  color: #857878;
+  font: Oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.71px;
+  letter-spacing: 3%;
+}
+
+.cont2 img {
+  width: 86px;
+  height: 76px;
+  margin-top: -40px;
+  margin-left: 142px;
+}
+.cont2 h1 {
+  width: 205px;
+  height: 49px;
+  margin-top: 13px;
+  margin-left: 83px;
+}
+
+.cont3 h1 {
+  width: 53px;
+  height: 23px;
+  margin-top: 21px;
+  margin-left: 161px;
+  color: #0796ef;
+  font: Oswald;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23.71px;
+  letter-spacing: 3%;
+}
+.icon {
+  width: 86px;
+  height: 12.6px;
+  margin-top: -38.81px;
+  margin-left: 142px;
+}
+.cont3 p {
+  width: 212px;
+  height: 45.21px;
+  margin-left: 81px;
+  font: Oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23.71px;
+  letter-spacing: 3%;
+  text-align: center;
+}

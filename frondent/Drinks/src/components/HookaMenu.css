@@ -1,0 +1,21 @@
+.img5 {
+  width: 103px;
+  height: 103.55px;
+  margin-top: 28.94px;
+  margin-left: 519px;
+}
+.HookaItems ul {
+  display: flex;
+  flex-direction: row;
+  gap: 57px;
+  /* width: 141px;
+  height: 39px; */
+  top: 25px;
+  margin-left: 81px;
+}
+.HookaItems ul li {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 38.53px;
+  align-items: center;
+}

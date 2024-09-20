@@ -1,0 +1,15 @@
+.mainMenu {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 1440px;
+  height: 1917px;
+  background-image: url(../../public/Rectangle\ 116.png);
+}
+.frame2 {
+  display: flex;
+  position: absolute;
+  width: 299px;
+  height: 1878px;
+  margin-left: 1290px;
+}

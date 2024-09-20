@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald &Kelly Slab");
+
+.btn {
+  position: relative;
+  background-image: url("../../public/Rectangle\ 107.png");
+  width: 1440px;
+  height: 79px;
+  margin-top: 311px;
+}
+
+.btnRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: end;
+}
+.btn button {
+  width: 114.25px;
+  height: 49.98px;
+  border: 0.5px solid rgba(7, 150, 239, 1);
+  font-weight: 600;
+  font-size: 16px;
+  font-family: Oswald;
+  line-height: 23.71px;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0, 0, 0, 1);
+  margin: 13.51px;
+}
+@media (max-width: 393px) {
+  .btn {
+    width: 100%;
+    height: 60px;
+  }
+  .btnRow {
+    width: 234.66px;
+    margin-top: 14px;
+    margin-left: 450px;
+  }
+}
