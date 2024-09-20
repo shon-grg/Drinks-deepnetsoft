@@ -37,7 +37,7 @@ function DrinksMenu() {
           drinks.map((drink, index) => (
             <div key={index}>
               <h1>
-                {drink.name} ............................................... $
+                {drink.name} ...........................................$
                 {drink.price}
               </h1>
               <p>{drink.description}</p>
