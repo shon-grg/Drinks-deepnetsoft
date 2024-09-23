@@ -26,6 +26,12 @@
   color: rgba(255, 255, 255, 1);
   background-color: rgba(0, 0, 0, 1);
   margin: 13.51px;
+  cursor: pointer;
+  transition: 0s;
+}
+.btn button:hover {
+  background-color: #0796ef;
+  transition-delay: 1s;
 }
 @media (max-width: 393px) {
   .btn {
