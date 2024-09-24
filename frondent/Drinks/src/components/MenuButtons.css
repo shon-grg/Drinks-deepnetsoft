@@ -31,7 +31,6 @@
 }
 .btn button:hover {
   background-color: #0796ef;
-  transition-delay: 0.01s;
 }
 @media (max-width: 393px) {
   .btn {
