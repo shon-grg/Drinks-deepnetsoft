@@ -1,11 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald &Kelly Slab");
 
 .btn {
-  position: relative;
+  position: absolute;
   background-image: url("../../public/Rectangle\ 107.png");
   width: 1440px;
   height: 79px;
-  margin-top: 311px;
 }
 
 .btnRow {

@@ -1,6 +1,6 @@
 import "./HookaMenu.css";
-import img5 from "../../public/image 40.png";
-import Head3 from "../../public/hookah flavors.png";
+import img5 from "../../../public/image 40.png";
+import Head3 from "../../../public/hookah flavors.png";
 function HookaMenu() {
   return (
     <div className="menu3">

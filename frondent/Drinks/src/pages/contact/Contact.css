@@ -1,18 +1,12 @@
 .row {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  flex-direction: row;
 }
-/* .contact {
-} */
 
 .row div {
   width: 373px;
   height: 134px;
   margin-top: 116px;
-  margin-left: 147px;
+  margin-left: 90px;
   border: 1px solid #ffffff;
   border-radius: 15px;
   color: #857878;

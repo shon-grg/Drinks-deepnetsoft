@@ -1,11 +1,13 @@
 import "./App.css";
-import Contact from "./pages/Contact";
-import HomePage from "./pages/HomePage";
-import Menu from "./pages/Menu";
-import Footer from "./components/Footer";
+import Contact from "./pages/contact/Contact";
+import HomePage from "./pages/home/HomePage";
+import Menu from "./pages/menu/Menu";
+import Footer from "./components/footer/Footer";
+import NavBar from "./components/navbar/NavBar";
 function App() {
   return (
     <div>
+      <NavBar />
       <HomePage />
       <Menu />
       <Contact />

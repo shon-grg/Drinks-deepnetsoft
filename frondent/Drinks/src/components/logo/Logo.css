@@ -1,0 +1,15 @@
+.Logo {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 60px;
+}
+.Logo span {
+  color: #0796ef;
+}
+.logoHeader {
+  margin-left: 16px;
+  color: aliceblue;
+}

@@ -1,11 +1,9 @@
-import menu from "../../public/menu.png";
+import menu from "../../../public/menu.png";
 import "./HomePage.css";
-import NavBar from "../components/NavBar";
 
 function HomePage() {
   return (
     <div className="mainHeader">
-      <NavBar />
       <div className="HomePage">
         <div className="h1">
           <img src={menu} alt="" />

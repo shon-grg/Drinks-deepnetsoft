@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   color: #ffffff;
-  width: 1440px;
+  width: 100%;
   height: 1917px;
   background-image: url(../../public/Rectangle\ 116.png);
 }
@@ -10,6 +10,7 @@
   display: flex;
   position: absolute;
   width: 299px;
-  height: 1878px;
+  height: 1820px;
   margin-left: 1290px;
+  margin-top: 90px;
 }

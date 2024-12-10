@@ -1,0 +1,146 @@
+.menu1 {
+  width: 1140px;
+  /* min-height: 677px; */
+  margin-top: 86px;
+  margin-left: 150px;
+  border: 1px solid #ffffff;
+}
+.menu2 {
+  width: 1140px;
+  min-height: 416px;
+  margin-top: 27px;
+  margin-left: 150px;
+  border: 1px solid #ffffff;
+}
+.menu3 {
+  width: 1140px;
+  min-height: 335px;
+  margin-top: 27px;
+  margin-left: 150px;
+  border: 1px solid #ffffff;
+}
+
+.img1 {
+  position: absolute;
+  width: 267px;
+  height: 22px;
+  margin-left: -90px;
+  margin-top: -100px;
+}
+
+.img2 {
+  position: absolute;
+  width: 263px;
+  height: 208px;
+  margin-top: -50px;
+  margin-left: 930px;
+}
+
+.head1 {
+  width: 160px;
+  height: 74px;
+  margin-top: 45px;
+  margin-left: 490px;
+}
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items h1 {
+  width: 462px;
+  height: 38px;
+  font-family: Oswald;
+  font-size: 26px;
+  line-height: 38.53.px;
+  letter-spacing: 3%;
+  margin-top: 24px;
+  margin-left: 85px;
+}
+.items p {
+  width: 467px;
+  height: 22px;
+  margin-left: 85px;
+  font-family: Kelly Slab;
+}
+
+@media screen and (max-width: 768px) {
+  .menu1 {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img1 {
+    width: 200px;
+    height: 18px;
+    margin-left: -60px;
+    margin-top: -50px;
+  }
+
+  .img2 {
+    width: 220px;
+    height: 180px;
+    margin-top: -40px;
+    margin-left: 680px;
+  }
+
+  .head1 {
+    width: 140px;
+    height: 60px;
+    margin-top: 45px;
+    margin-left: 350px;
+  }
+
+  .items h1 {
+    width: 100%;
+    font-size: 22px;
+    margin-top: 24px;
+    text-align: center;
+  }
+
+  .items p {
+    width: 100%;
+    font-size: 16px;
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+/* Mobile View */
+@media screen and (max-width: 480px) {
+  .img1 {
+    width: 180px;
+    height: 16px;
+    margin-left: -45px;
+    margin-top: -40px;
+  }
+
+  .img2 {
+    width: 200px;
+    height: 160px;
+    margin-top: -30px;
+    margin-left: 460px;
+  }
+
+  .head1 {
+    width: 120px;
+    height: 55px;
+    margin-top: 35px;
+    margin-left: 250px;
+  }
+
+  .items h1 {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .items p {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+    margin-left: 0;
+  }
+}

@@ -16,20 +16,22 @@ app.use(morgan("dev"));
 
 app.use(express.json());
 
-// app.use((req, res, next) => {
-//   req.requestTime = new Date().toISOString;
-//   next();
-// });
+app.use((req, res, next) => {
+  req.requestTime = new Date().toISOString;
+  next();
+});
 
 // COMMON ROUTES
 app.use("/api/v1/drinks", drinksRouter);
 app.use("/api/v1/cocktails", cocktailsRouter);
 
 //MONGO DB ATLAS PASSWORD CHECKING
-const DB = process.env.DATABASE_MONGOSHELL.replace(
-  "<PASSWORD>",
-  process.env.DATABASE_PASSWORD
-);
+const DB =
+  process.env.DATABASE ||
+  process.env.DATABASE_MONGO_SHELL.replace(
+    "<PASSWORD>",
+    process.env.DATABASE_PASSWORD
+  );
 
 //MONGO DB CONNECTION STRING
 mongoose
